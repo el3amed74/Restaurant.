@@ -1,0 +1,211 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+body{
+	font-family: "sans-serif", serif ,cursive;
+	line-height: 1.5;
+     
+}
+.title-text{
+	font-size: 40px;
+	text-align: center;
+    
+}
+/*--------------------nav bar------------------------*/
+.navbar{
+	width: 67px;
+	background: orange;
+	border: 2px solid orange;
+	border-radius: 20px;
+	position: fixed;
+	z-index: 1;
+	left: 10px;
+	top: 10px;
+	height: 210px;
+	padding-top: 15px
+}
+.navbar a{
+
+	display: block;
+	text-align: center;
+	padding: 10px;
+	transition: all 0.3 ease;
+	color: #fff;
+	font-size: 15px;
+	text-decoration: none;
+	transition: .3s;
+}
+.navbar a:hover{
+	background: #fff;
+	color: black;
+	border: 2px solid black;
+	border-radius: 20px;
+}
+
+/*------------------end nav bar----------------------*/
+/* ------------------heder---------------------------*/
+.header{
+	min-height: 100vh;
+	background: url(../images/2.jpg) center/cover no-repeat fixed;
+	margin-top: auto;
+}
+.intro{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	background-attachment: fixed;
+	width: 100%;
+	height: 100%;
+}
+.title{
+	color: #fff;
+	font-size: 50px;
+    padding-left: 25px;
+}
+.btn-1{
+	display: inline-block;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 13px 20px;
+	border-radius: 20px ;
+	font-weight: bold;
+	background-color: orange;
+	color: #FFF;
+	border: 2px solid orange;
+    margin-top: 10px;
+}
+.btn-1:hover{
+	color: orange;
+	background: #fff;
+	border: none;
+}
+/*-------------- end header--------------------*/
+/*------------------about us-------------------*/
+.about{
+	padding: 40px;
+}
+.about-text{
+	margin: 30px 0px;
+	display: flex;
+	text-transform: capitalize;
+	color: orange;
+	font-size: 35px;
+	line-height: 1.5;
+	margin-top: 10px ; 
+}
+/*----------------end about us-----------------*/
+/*-----------------menu------------------------*/
+.menu-image{
+	min-height: 80vh;
+	background: url(../images/6.jpg) center/cover fixed no-repeat;
+}
+.menu-text{
+	min-height: 80vh;
+	align-items: center;
+	background: orange;
+	columns: black;
+	padding: 40px ;
+	margin: 0 auto;
+}
+.menu-text h1{
+	font-size: 40px;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+.menu-text p{
+	margin:20px 0px;
+	line-height: 2;
+	font-size: 20px;
+}
+.btn-2{
+	display: inline-block;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 13px 20px;
+	border-radius: 20px ;
+	font-weight: bold;
+	background-color: black;
+	color: orange;
+	border: 2px solid orange;
+    margin-top: 10px;
+}
+.btn-2:hover{
+	color: orange;
+	background: #fff;
+	border: none;
+}
+@media screen and (min-width: 776px){
+	.menu{
+		display: flex;
+		background: orange;
+	}
+	.menu-text{
+		flex:0 0 30%;
+	}
+	.menu-image{
+		flex:0 0 70%;
+	}
+}
+
+/*------------------end menu-------------------*/
+/*-----------------gallary---------------------*/
+.gallery{
+	padding: 10px;
+	background: #fff;
+   
+}
+.galleey-items{
+	background: linear-gradient(rgba(241,161,13))rgb(rgb(255,165,0));
+}
+
+.galleey-items img{
+	display: block;
+	opacity: 1;
+	transition: opacity 2s ease;
+}
+.galleey-items img:hover{
+	opacity: 0.5;
+}
+@media(min-width:768px)
+{
+    .gallery{
+        padding: 50px;
+    }
+}
+/*----------------end gallary------------------*/
+/*-----------------social media---------------*/
+.social-icons {
+	height: 100px;
+	background:#fff;
+	text-align: center;
+	padding: 40px 0 40px 0;
+}
+.social-icons img{
+	height: 50px;
+}
+.social-icons a{
+	display: inline-block;
+	padding: 5px 10px;
+	margin: 0 5px;
+	font-size: 40px;
+	border-radius: 5px;
+}
+/*-------------end social media---------------*/
+/*--------------footer------------------------*/
+.text{
+	background: black;
+	text-align: center;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 24px;
+	margin-top: 20px;
+}
+
+/*--------------end footer--------------------*/
