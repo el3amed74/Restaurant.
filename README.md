@@ -1,2 +1,2 @@
 # Restaurant.
-first project
+Created with HTML 5 & CSS 3
